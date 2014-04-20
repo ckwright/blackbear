@@ -436,5 +436,5 @@ function blackbear_install() {
     ->condition('type', 'theme')
     ->condition('name', 'skeletontheme')
     ->execute();
-  variable_set('default_theme', 'skeletontheme');
+  variable_set('theme_default', 'skeletontheme');
 }
