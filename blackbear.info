@@ -1,0 +1,67 @@
+name = Blackbear
+description = A basic profile to use as starting point for non-developers who understand drupal to build sties.
+version = VERSION
+core = 7.x
+
+# Core Extensions
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+# Contrib Extensions
+dependencies[] = breadcrumbs_by_path
+dependencies[] = chosen
+dependencies[] = coffee
+dependencies[] = ctools
+dependencies[] = views_content
+dependencies[] = page_manager
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_view_mode
+dependencies[] = entitycache
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = file_entity
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = panels
+dependencies[] = panelizer
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = strongarm
+dependencies[] = styleguide
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+
+files[] = blackbear.profile
+
+# System Requirements
+php_memory_limit = 128M
+
