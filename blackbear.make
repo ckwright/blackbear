@@ -50,7 +50,7 @@ projects[beanslide][version] = "1.0-alpha3"
 projects[flexslider][version] = "2.0-alpha1"
 projects[flexslider_views_slideshow][version] = "2.x-dev"
 projects[colorbox][version] = "2.5"
-projects[flickr][version] = "1.5"
+projects[flickr][version] = "1.3"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
