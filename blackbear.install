@@ -421,7 +421,7 @@ function blackbear_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable seven and themes and set as default.
+  // Enable seven admin theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
@@ -429,12 +429,4 @@ function blackbear_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
-
-  // Enable  skeletontheme themes and set as default.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'skeletontheme')
-    ->execute();
-  variable_set('theme_default', 'skeletontheme');
 }

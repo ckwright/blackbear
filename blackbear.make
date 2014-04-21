@@ -10,6 +10,7 @@ projects[] = drupal
 
 ; Base Modules
 projects[breadcrumbs_by_path] = "1.0-alpha11"
+projects[browscap_ctools] = "1.0"
 projects[chosen][version] = "2.0-beta4"
 projects[coffee][version] = "1.0"
 projects[ctools][version] = "1.4"
@@ -72,5 +73,6 @@ libraries[uploadprogress][download][type] = "get"
 libraries[uploadprogress][download][url] = "http://pecl.php.net/get/uploadprogress-1.0.3.1.tgz"
 
 ; Themes
-projects[skeletontheme][type] = "theme"
+projects[adaptivetheme][type] = "theme"
+projects[sky][theme] = "theme"
 
