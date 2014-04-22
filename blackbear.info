@@ -7,6 +7,7 @@ core = 7.x
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
+dependencies[] = contact
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = help
@@ -27,9 +28,7 @@ dependencies[] = file
 dependencies[] = rdf
 
 # Contrib Extensions
-dependencies[] = breadcrumbs_by_path
 dependencies[] = chosen
-dependencies[] = coffee
 dependencies[] = ctools
 dependencies[] = views_content
 dependencies[] = page_manager
@@ -58,7 +57,6 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = wysiwyg
-dependencies[] = xmlsitemap
 
 files[] = blackbear.profile
 

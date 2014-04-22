@@ -9,10 +9,8 @@ api = 2
 projects[] = drupal
 
 ; Base Modules
-projects[breadcrumbs_by_path] = "1.0-alpha11"
 projects[browscap_ctools] = "1.0"
 projects[chosen][version] = "2.0-beta4"
-projects[coffee][version] = "1.0"
 projects[ctools][version] = "1.4"
 projects[diff][version] = "3.2"
 projects[entity][version] = "1.5"
@@ -43,7 +41,6 @@ projects[views][version] = "3.7"
 projects[views_bulk_operations][version] = "3.1"
 projects[views_slideshow][version] = "3.1"
 projects[wysiwyg][version] = "2.x-dev"
-projects[xmlsitemap][version] = "2.0-rc2"
 
 ; Fancy Modules
 projects[bean][version] = "1.7"
@@ -73,6 +70,6 @@ libraries[uploadprogress][download][type] = "get"
 libraries[uploadprogress][download][url] = "http://pecl.php.net/get/uploadprogress-1.0.3.1.tgz"
 
 ; Themes
-projects[adaptivetheme][type] = "theme"
-projects[sky][theme] = "theme"
+projects[zen][type] = "theme"
+projects[neptune][theme] = "theme"
 
